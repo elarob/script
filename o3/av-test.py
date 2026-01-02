@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+import os
+import platform
+
+#Kontrollerar vilket operativsystem du har
+system = platform.system()
+print(f"Operativsystem: {system}")
+
+if system == "Windows":
+	# Fortsätt med Windows-specifik kod
+	print("Windows upptäckt. Scriptet fortsätter...")
+elif system == "Linux":
+	print("Linux upptäckt. Detta script är avsett för Windows.")
+	exit()
+elif system == "Darwin":
+	print("macOS upptäckt. Detta script är avsett för Windows.")
+	exit()
+
+else:
+	print(f"Okänt operativsystem ({system}). Detta script är avsett för Windows. Avbryter körning.")
+	exit()
+
+
