@@ -2,8 +2,6 @@
 #
 # Detta script samlar in systeminformation - RECON
 #
-# Kan användas för följande attacker:
-# [Skriv möjliga attacker]
 #
 # Author: Elaine
 # Last Update: 2025-12-08
@@ -33,7 +31,7 @@ echo "=== NÄTVERK ==="
 ip a | grep inet
 
 
-echo 
+echo
 echo " === DISKSTATUS ==="
 df -h
 
