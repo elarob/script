@@ -7,9 +7,9 @@ Detta repository innehåller övningar för kursen Applied Script som genomförd
 
 |    Projekt   | Beskrivning                                  |
 |--------------|----------------------------------------------|
-| ** Övning 1**  | Informationsinsamlingsscript i Linux-miljö  |
-| ** Övning 2**  | MD5-hasher och bruteforce-attack med Hashcat|
-| ** Övning 3**  | AV/EDR-test med EICAR-testfil och antivirusrespons|
+| **o1**  | Informationsinsamlingsscript i Linux-miljö  |
+| **o2**  | MD5-hasher och bruteforce-attack med Hashcat|
+| **o3**  | AV/EDR-test med EICAR-testfil och antivirusrespons|
 
 
 ### Övning 1: Informationsinsamlingsscript (RECON)
